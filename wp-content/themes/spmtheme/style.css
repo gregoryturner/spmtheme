@@ -1,0 +1,14 @@
+/*
+Theme Name: SPM Theme
+Author: Greg Turner
+Author URI: http://steampoweredmedia.com
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: 'IBM Plex Mono', monospace;
+}
