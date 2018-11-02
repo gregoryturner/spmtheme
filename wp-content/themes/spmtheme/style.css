@@ -18,6 +18,12 @@ header > h1 > a {
     color: white;
 }
 
+.footer {
+    padding-top: 2em;
+    font-size: small;
+}
+
+
 a:visited {
     color: slategray;
 }
@@ -76,6 +82,15 @@ footer {
     padding: 10px;
 }
 
+/* #################################
+#### Article loop MEDIA QUERY ####
+################################# */
+@media screen and (max-width: 800px) {
+    .article-loop {
+        width: 99%;
+    }
+}
+
 .article-full {
     width: 99%;
     padding: 1%;
@@ -89,3 +104,40 @@ footer {
     border-radius: 4px;
     margin-bottom: 4px;
 }
+
+/* #################################
+####### General MEDIA QUERY #######
+################################# */
+@media screen and (max-width: 600px) {
+    .content-area,
+    .primary-sidebar {
+        width: 100%;
+    }
+}
+
+
+/* CALLOUT */
+.callout {
+    max-width: 22em;
+    border: solid thin white;
+    padding: 1.5em;
+    position: relative;
+    top: 1em;
+    left: 2em;
+}
+
+.callout h2 {
+    font-size: 75%;
+}
+
+/* media query */
+@media screen and (max-width: 600px) {
+    .callout {
+        width: 90%;
+        border: solid thin white;
+        padding: 1.5em;
+    }
+
+    .callout h2 {
+        font-size: 75%;
+    }
